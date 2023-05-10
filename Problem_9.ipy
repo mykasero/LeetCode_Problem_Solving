@@ -1,0 +1,23 @@
+class Solution(object):
+    def isPalindrome(self, x):
+        """
+        :type x: int
+        :rtype: bool
+        """
+        str_x = str(x)
+        x_left = []
+        x_right = []
+        tmp=0
+        for i in range(len(str_x)):
+            x_left.insert(i,str_x[i])
+            x_right.insert(i,str_x[(len(str_x)-1)-i])
+            if x_left[i] != x_right[i]:
+                tmp =1
+        
+        if tmp>0:
+            return False
+        else:
+            
+            return True
+            
+Solution.isPalindrome(Solution, -121)

@@ -1,0 +1,19 @@
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: str
+        """
+        if not strs: return ''
+        
+        mini,maxi,i= min(strs), max(strs), 0
+        for i in range(min(len(mini),len(maxi))):
+            if mini[i] != maxi[i]:
+                break
+            else: i+=1
+  
+        return mini[:i]
+        
+strs = ["flower","flow","flight"]
+Solution.longestCommonPrefix(Solution, strs)
+
