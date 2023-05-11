@@ -4,7 +4,7 @@ letters = {}
 
 for s in strs:
     sorter = ''.join(sorted(s))
-    if sorter not in lsetters:
+    if sorter not in letters:
         letters[sorter] = [s]
     else:
         letters[sorter].append(s)
