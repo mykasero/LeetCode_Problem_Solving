@@ -1,4 +1,5 @@
-strs = ["eat","tea","tan","ate","nat","bat"]
+# LeetCode Problem Name: Group Anagrams
+strs = ["eat","tea","tan","ate","nat","bat"] #Example list
 
 letters = {}
 
