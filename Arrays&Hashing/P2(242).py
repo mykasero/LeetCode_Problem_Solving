@@ -1,5 +1,6 @@
-s = "aacc"
-t = "ccac"
+## LeetCode Problem Name: Valid Anagram
+s = "aacc" #example string
+t = "ccac" #example string
 '''
 #original idea (passed 33/38)
 
