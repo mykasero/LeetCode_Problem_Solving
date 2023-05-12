@@ -1,3 +1,4 @@
+# LeetCode Problem Name: Contains Duplicate
 class Solution(object):
     def containsDuplicate(self, nums):
         """
