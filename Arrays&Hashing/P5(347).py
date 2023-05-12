@@ -1,6 +1,7 @@
+# LeetCode Problem Name: Top K Frequent Elements
 import heapq
-nums = [1,1,1,2,2,3]
-k = 2
+nums = [1,1,1,2,2,3] #example list
+k = 2 #example k
 
 counted_vals = {}
 heap = []
